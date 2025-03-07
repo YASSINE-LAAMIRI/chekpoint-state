@@ -1,8 +1,19 @@
+.Per{
+padding: 5%;
+display:flex;
 
+/* justify-items:!center; */
+justify-content: space-between;
+justify-content:center ;
+
+}
 h3{
 
     color: blue;
 }
 img{
-    width:40%
-}
+    
+    width: 400px;
+    height: auto;
+    
+    }

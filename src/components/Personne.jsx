@@ -32,13 +32,23 @@ componentWillUnmount(){
 
   render() {
     return (
-      <div>
-
-        <h2>{this.personne.fullName}</h2>       
+       
+      <div className='Per'>
+     
+        <div className='Mypic'>
         <img  src={this.personne.Image} alt='img' />
+       
+            </div>     
+            
+        <div className='block'>
+        <br />
+        <br />
+        <h2>{this.personne.fullName}</h2>  
+        {/* <br />         */}
         <h3>{this.personne.bio}</h3>    
         <h3>{this.personne.profession}</h3>    
         <p>Temps Ecouler = {this.state.tempsEcouler} sec</p>
+        </div>
         </div>
     )
   }
